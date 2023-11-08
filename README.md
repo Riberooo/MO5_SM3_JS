@@ -1,1 +1,3 @@
-# MO5_SM3_JS
+# Modulo 5 Semana 3 JavaScript
+
+Gabriel ribeiro martins
