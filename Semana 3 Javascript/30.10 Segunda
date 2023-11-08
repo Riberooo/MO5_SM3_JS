@@ -1,0 +1,81 @@
+Questao 1
+
+	1. O que é NVM?
+		R: é uma ferramenta para gerenciar versoes de node.js
+		
+	2 a. O que é NPM e para que utilizamos
+		R: é uma ferramenta para instalaçao/desinstalaçao e atualizaçao de pacotes/blibiotecas do node.js
+		
+	  b. O Que o comando "npm install prompt-sync" realiza
+		R: Instala um pacote/blibioteca chamdo "prompt-sync"
+	
+	  c. Em qual diretorio devemos instalar uma biblioteca javascript
+	    R: No diretorio que esta o projeto/codigo que estamos desenvolvendo
+	
+	3. Existe diferença entre o código que cria e o que faz uso de uma variavel em python? explique
+		R: Sim, pois quando atribuimos uma varieval usamos "variavel = 50", e quando chamamos uma variavel usamos somente o nome "print(variavel)".
+		
+	4. Existe diferença entre o codigo que cria e o que faz uso de uma variavel em javascript? Explique
+		R: Sim, pois criando usamos "let variavel = "ABC";", e quando chamamos usamos "console.log(variavel);
+		
+Questao 2
+
+	Explique as diferenças e especificidades de variaveis criadas com os comandos: Const, Var e let
+		R: Const: é usado quando nao há intenção na mudança da variavel, so pode ser acessada no bloco de codigo que foi criada e deve ser  inicializadas junto com a declaração ou um erro é jogado
+		   Var : são movidas para o topo do escopo, so funcionam na função que foi criada
+		   Let : é movida pra o topo do escopo e esta disponivel somente no bloco que foi criada
+		   
+Questao 3
+
+	Diga o que sera impresso na tela apos executar cada um dos códigos abaixo:
+	
+		var x = 5;
+		function fun() {
+			var x = 6;
+			console.log(x);
+		}
+		console.log(x);
+		
+		R: 6
+		   5
+		   
+		   ~~~~~~~~
+		   
+		let x = 5;
+		function fun() {
+			let x = 6;
+			console.log(x);
+		}
+		console.log(x);
+		
+		R: 6
+		   5
+
+Questao 4
+
+	É possivel editar o valor de uma variavel (const), de uma lista (const) ou de um objeto (const)?
+	
+		const list = [1, 2, 3];
+		list = [4, 5, 6];
+
+		const pessoa = {nome: 'João', idade: 18};
+		pessoa.nome = 'Maria';
+		pessoa.idade = 20;
+
+		const PI = 3.1415;
+		PI = 3.14;
+		
+		R: Os valores de uma variaveis nao podem ser mudados
+		   Os valores de uma lista nao podem ser modificados
+		   Os valores de um objeto podem ser modificados
+		   
+Questao 5
+	
+	Escreva um codigo criando uma funçao em javascript de maneria convencional e armazenando uma funçao em uma constante nomeada (variável constante)
+
+		R: 
+			const variavel_constane = function(a, b) {
+			return a + b;
+			}
+
+			console.log(variavel_constane(1, 2));
